@@ -1,0 +1,93 @@
+
+/*font des pages */
+body{
+font-family: serif, cursive;
+color:#FFFFFF;
+  background-color: #120D16;
+}
+ /* Add a blue background color and some padding to the footer */
+   footer {
+     background-color: #5E83B2;
+     padding-top: 5px;
+     text-align: center;
+     position:fixed;
+     bottom:0px;
+     width: 100%;
+     height: 3%;
+   }
+
+.carousel-inner img {
+     width: 100%; /* Set width to 100% */
+     margin: auto;
+     height: 10%;
+ }
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+ @media (max-width: 600px) {
+   .carousel-caption {
+     display: none;
+   }
+ }
+
+ /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+
+    }
+.navbar, .navbar-inverse, .container-fluid{
+  background-color: #120D16;
+}
+.nav,.navbar-nav,.dropdown-menu{
+  background-color: #120D16;
+
+}
+
+.navbar-nav,.dropdown-menu>li>a{
+  color:#FFFFFF;
+}
+
+.nav,.navbar-nav>li>a:hover,.nav,.navbar-nav,.dropdown-menu>li>a:hover{
+  color: #5E83B2 !important;
+}
+
+.carousel-inner{
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  min-height: 30%;
+  max-height: 30%;
+}
+
+
+.carousel-inner > .item > img{
+    display: block;
+    max-width: 50%;
+    min-height: 30%;
+    max-height: 30%;
+}
+
+.carousel-inner >.item >.carousel-caption {
+text-shadow: 3px 3px #000000;
+}
+
+.well{
+  color: #000000;
+}
+
+.well:hover{
+border : 3px solid  #5E83B2;
+
+}
+
+.section:hover{
+border : 3px solid  #5E83B2;
+
+}
+input{
+  color:#000000;
+}
+
+#Commentaire{
+  color: #000000;
+}
